@@ -1,0 +1,22 @@
+puzzle_images = [
+  {
+    name: "arceus",
+    thumbnail:"images/pokemon_legends_arceus_thumb.jpg",
+    normal:"images/pokemon_legends_arceus.jpg"
+  },
+  {
+    name: "horizon",
+    thumbnail:"images/horizon_forbidden_west_thumb.jpg",
+    normal:"images/horizon_forbidden_west.jpg"
+  }, 
+  {
+    name: "god_of_war",
+    thumbnail:"images/god_of_war_ragnarok_thumb.jpg",
+    normal:"images/god_of_war_ragnarok.jpg"
+  },
+  {
+    name: "elden_ring",
+    thumbnail:"images/elden_ring_thumb.jpg",
+    normal:"images/elden_ring.jpg"
+  }  
+];
