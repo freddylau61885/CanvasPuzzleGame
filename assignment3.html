@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Advanced JavaScript - Assignment 3</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" 
+        type="text/css" 
+        href="styles/assignment3.css" 
+        />
+    <style>      
+      
+    </style>
+  
+    <script>
+      
+    </script>
+  </head>
+
+  <body>
+    <h1>Puzzle Game</h1> 
+    <!-- show all the images -->
+    <div id="puzzles_tumb"></div> 
+    <!-- menu for player select difficulty -->
+    <div id="menu">
+      <p>Please select the difficulty:</p>
+      <button class="diff">easy</button>
+      <button class="diff">normal</button>
+      <button class="diff">hard</button>        
+    </div>
+    <!-- end of menu -->
+    
+    <!-- the timer when started the game -->
+    <div id="timer"></div>
+    <!-- modal of completed the game -->
+    <div id="overlay">
+      <div id="end_menu">
+        <table>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Time</th>
+          </tr>          
+        </table>
+        <!-- end of table -->
+        <p><strong>Your Time:</strong> </p>
+        <input type="text" name="player" id="player" placeholder="Please type your here"><br />
+        <!-- save button for save the record -->
+        <button id="save">Save</button>
+        <button id="restart">Restart</button>
+      </div> 
+       <!--end of end_menu  -->
+    </div> 
+    <!-- end of overlay -->
+    
+    <div id="img_menu">
+      <!-- checkbox for player choose show the image or not -->
+      <input id="show_image" type="checkbox" disabled="true"></input>
+      <label for="show_image">Show the original image</label>
+    </div>
+    <!-- end of img_menu -->
+
+    <canvas id="the_canvas"></canvas>
+
+    <div id="start_panel">
+      <button id="start">Start</button>
+    </div> 
+    <!-- end of start_panel -->
+    
+    <!-- json for all images -->
+    <script src="images.json"></script>
+    <script type="text/javascript" src="js/assignment3.js"></script>    
+  </body>
+  
+  
+
+</html>

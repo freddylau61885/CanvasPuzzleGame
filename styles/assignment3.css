@@ -1,0 +1,145 @@
+body{
+  font-family: Arial, sans-serif; 
+  background-color:white;
+  background-image: linear-gradient(90deg, 
+                                  rgba(127, 215, 245,.4) 50%, 
+                                    transparent 50%),
+                    linear-gradient(rgba(192, 235, 250,.5) 50%, 
+                                      transparent 50%);
+  background-size:50px 50px;
+  padding: 10px;
+}
+
+h1{
+  text-shadow: 1px 2px 4px #666;
+}
+
+#the_canvas {
+  border: 1px solid #000;
+  margin-top: 10px;  
+  box-shadow: 5px 10px 10px #000;
+  background-color:white;  
+}
+
+#start_panel{
+  position: absolute; 
+  top: 936px;
+  width: 981px;  
+  background-color: rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+#restart{
+  margin-top: 10px;
+  background-color: #722b2b;
+}
+
+#save{
+  background-color: #0d95a3;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 1.4em;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#menu button:nth-of-type(1){
+  background-color: #b5ffbe;
+}
+#menu button:nth-of-type(2){
+  background-color: #abfcff;
+}
+#menu button:nth-of-type(3){
+  background-color: #f8aeab;
+}
+
+#start{
+  font-size: 2.5em;  
+  background-color: transparent;
+  font-weight: 700;
+  color: rgba(240,240,240,0.9);
+  text-shadow: 5px 5px 5px #000;  
+}
+
+#start:hover {
+  color: rgba(255,255,255,1);
+}
+
+#timer{
+  position: absolute;
+  display: none;
+  top: 9%;
+  left: 29%;
+  font-weight: 700;
+  font-size: 1.8em;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+#puzzles_tumb{
+  padding: 20px;
+  background-color: rgba(0,0,0,0.4);
+  overflow-y: auto;
+}
+
+#puzzles_tumb img{
+  margin-right: 20px;
+}
+
+#menu,
+#img_menu{
+  margin-top: 10px;
+}
+
+#end_menu{
+  position: relative;
+  background-color: #ccc;
+  padding: 20px 50px;
+  border-radius: 10px;
+  width: 240px;
+  margin: 16% auto;
+}
+
+#end_menu input{
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 13px;
+  background: rgba(255,255,255,.4);
+}
+
+#overlay{
+  position: fixed;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;  
+  bottom: 0;    
+  display: none;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+table th{
+  border-bottom: 2px solid #000;
+}
+
+table th,
+table td{
+  padding: 5px 20px;
+}
+
+/* #img_menu{
+  
+} */
